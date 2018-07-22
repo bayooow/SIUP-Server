@@ -1,0 +1,29 @@
+Get
+url: http://localhost:10000/api/kelurahan/
+return all 
+
+Get
+url: http://localhost:10000/api/kelurahan/{id}
+return kelurahanById
+
+Post 
+url: http://localhost:10000/api/kelurahan/
+{
+    "kode": "K-0019",
+    "nama": "Kelurahan 019",
+    "kodepos":"00132"
+}
+add kelurahan
+
+Put 
+url: http://localhost:10000/api/kelurahan/{id}
+{
+    "kode": "K-0019",
+    "nama": "Kelurahan 019",
+    "kodepos":"00132"
+}
+update kelurahan
+
+Delete
+url: url: http://localhost:10000/api/kelurahan/{id}
+delete kelurahanbyId
